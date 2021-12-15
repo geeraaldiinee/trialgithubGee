@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not 980px-->
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+<title>Mise en Scene "Achieve that gorgerous hair"</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+
+<div id="container">
+	<h1 class="hidden">Achieve a softer hair</h1>
+	<main id="customer">
+			<img
+				sizes="(min-width: 1280px) 900px,
+				(min-width: 800px) 600px,
+				100vw"
+				srcset="
+				images/1280x800_q9pam6_c_scale,w_390.jpg 390w,
+				images/1280x800_q9pam6_c_scale,w_711.jpg 711w,
+				images/1280x800_q9pam6_c_scale,w_972.jpg 972w,
+				images/1280x800_q9pam6_c_scale,w_1187.jpg 1187w,
+				images/1280x800_q9pam6_c_scale,w_1280.jpg 1280w"
+				src="images/1280x800_q9pam6_c_scale,w_1280.jpg"
+				alt="products"
+				id="hero">
+		<header id="mainHeader">
+			<img src="images/MES.svg" alt="MES logo" id="logo">
+		</header>
+		<section id="signUp">
+		<h2>Achieve a more smoother and shinier hair.<br> Perfect Serum</h2>
+		<form id="customerForm">
+			<h3>Sign Up Now</h3>
+			<p>Enter your info, and get a chance to win Freebies.</p>
+			<label for="fname">First Name</label>
+			<input type="text" id="fname">
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname">
+			<label for="email">Email</label>
+			<input type="email" id="email">
+			<label for="city">City</label>
+			<input type="text" id="city">
+			<label for="tel">Phone number</label>
+			<input type="tel" id="tel">
+			<div id="checkbox">
+				<input type="checkbox" id="terms">
+				<label for="terms">I agree to the <span id="highlight">Mise en scene</span></label>
+			</div>
+			<input id="submit" type="submit" value="SIGN UP">
+		</form>
+		</section>
+	</main>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
